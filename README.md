@@ -17,7 +17,7 @@ There are two different packages that are:
 
 ## Sources to get R packages: 
 <br>
-There are three diffverent places/platform/sources from where we can get these packages are :
+There are three different places/platform/sources from where we can get these packages are :
 
 1. **CRAN**
 2. **CRANTASTIC**
@@ -34,5 +34,17 @@ Select current line of code and hit ```CTRL + Enter``` to execute (or) run the a
 
 ![](./files/images/2_installing_package_pacman.gif)
 
+Now, we install the packages next step is to load them for this we have two ways to do this:
 
+1. using **require**(*library_name*) : It will gives a confirmation message.
 
+2. using **library**(*library_name*) : It will give no message.
+
+```R
+require(pacman) # Gives a confirmation message.
+
+#(OR)
+
+library(pacman) # No message
+```
+![](./files/images/3_loading_the_packages.gif)
