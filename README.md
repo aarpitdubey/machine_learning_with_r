@@ -30,6 +30,9 @@ To load all the R packages one library, **Pacman** : Packages Management Tool.
 ```R
 install.packages('pacman')
 ```
+hit ```CTRL + Enter``` to execute (or) run the aboe line on your R Studio.
 
 ![](./files/images/2_installing_package_pacman.gif)
+
+
 
